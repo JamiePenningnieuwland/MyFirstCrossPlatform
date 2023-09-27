@@ -1,5 +1,6 @@
 # MyFirstCrossPlatform
-This project was made by me in year 1 of my studies at BUAS. It is a project made from scratch, which runs on windows and linux(RaspBerry Pie).
+This project was made by me in year 1 of my studies at BUAS. It is a project made from scratch, which runs on windows. 
+The code also runs on linux(RaspBerry Pie) it has a seperation for graphics.cpp and input.cpp, however the premake setup does not work for this platform. I decided to not upload the visual studio files and solutions since this would take away the showcase of using premake, so it does not run on linux out of the box.
 
 How to run:
 1. Download zip
