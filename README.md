@@ -16,7 +16,7 @@ The code also runs on linux(RaspBerry Pie) it has a seperation for graphics.cpp 
 
 How to run:
 1. Download zip
-2. Unzip zip and click on CreateProject.Bat
+2. Unzip zip
 3. Open solution and run
 
 This project implements a few things:
