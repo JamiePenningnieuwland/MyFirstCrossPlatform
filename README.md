@@ -1,5 +1,17 @@
 # MyFirstCrossPlatform
 This project was made by me in year 1 of my studies at BUAS. It is a project made from scratch, which runs on windows. 
+
+The project dependencies:
+- Assimp
+- ImGui
+- stb_image
+- YAML
+- bullet
+- glad
+- glfw
+- tinyOBJloader
+- glm
+  
 The code also runs on linux(RaspBerry Pie) it has a seperation for graphics.cpp and input.cpp, however the premake setup does not work for this platform. This is why projectfiles and the solution file is uploaded. The premake setup does not work out of the box.
 
 How to run:
