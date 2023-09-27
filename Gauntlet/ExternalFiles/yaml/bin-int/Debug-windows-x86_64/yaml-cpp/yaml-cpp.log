@@ -1,0 +1,65 @@
+﻿  binary.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\binary.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  graphbuilder.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\contrib\graphbuilder.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  graphbuilderadapter.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\contrib\graphbuilderadapter.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  convert.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\convert.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  depthguard.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\depthguard.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  directives.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\directives.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  emit.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\emit.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  emitfromevents.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\emitfromevents.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  emitter.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\emitter.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  emitterstate.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\emitterstate.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  emitterutils.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\emitterutils.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  exceptions.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\exceptions.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  exp.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\exp.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  memory.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\memory.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  node.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\node.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  node_data.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\node_data.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  nodebuilder.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\nodebuilder.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  nodeevents.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\nodeevents.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  null.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\null.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  ostream_wrapper.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\ostream_wrapper.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  Generating Code...
+  Compiling...
+  parse.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\parse.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  parser.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\parser.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  regex_yaml.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\regex_yaml.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  scanner.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\scanner.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  scanscalar.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\scanscalar.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  scantag.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\scantag.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  scantoken.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\scantoken.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  simplekey.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\simplekey.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  singledocparser.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\singledocparser.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  stream.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\stream.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  tag.cpp
+C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\src\tag.cpp : fatal  error C1041: cannot open program database 'C:\Users\jaime\Desktop\Gauntlet\Gauntlet\ExternalFiles\yaml\bin\Debug-windows-x86_64\yaml-cpp\yaml-cpp.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+  Generating Code...
