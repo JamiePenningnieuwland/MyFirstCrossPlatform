@@ -1,0 +1,4691 @@
+Scene: LEVEL1_ninja
+Models:
+  - ModelName: Resources/Models/Ninja/Ninja.fbx
+    TEST:
+      Generated: false
+  - ModelName: Resources/Textures/Texture.jpg
+    TEST:
+      Generated: true
+GameObjects:
+  - GameObject: Tile
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [128, 1, 128]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-60, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-56, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-36, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-32, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-24, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-4, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [4, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [16, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [24, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [28, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [32, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [44, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [52, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [56, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -64]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -56]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -56]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -56]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-60, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-56, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-36, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-32, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-24, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-4, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-24, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-4, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-60, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-56, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-36, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-32, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [16, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [24, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [28, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [32, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [4, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [16, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [24, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [28, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [32, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [44, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [52, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [56, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [16, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [24, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [28, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [32, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [44, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, -4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [16, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [16, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 4]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-24, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-4, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 8]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 12]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [16, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [24, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [28, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [32, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [44, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 16]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, 20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, 20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 20]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, 24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, 24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 24]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-36, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-32, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-24, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 28]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, 32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, 32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 32]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, 36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, 36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 36]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-36, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-32, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [4, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 40]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, 44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, 44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, 44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 44]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-24, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-4, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [44, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [52, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [56, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 48]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 52]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 56]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 56]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 56]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-64, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-60, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-56, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-52, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-48, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-44, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-40, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-36, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-32, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-28, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-24, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-20, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-16, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-12, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-8, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [-4, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [0, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [4, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [8, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [12, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [16, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [20, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [24, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [28, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [32, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [36, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [40, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [44, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [48, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [52, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [56, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Tile
+    Transform:
+      Position: [60, 4, 60]
+      Rotation: [0, 0, 0, 1]
+      Scale: [4, 8, 4]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: defaultCam
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Fov: 90
+      Near: 0.00999999978
+      Far: 100
+      AspectRatio: 1.25
+      IsMain: false
+      Offset: [2.18000007, 0, 0]
+      ObjectOffset: [0, 0, 0]
+  - GameObject: Character
+    Transform:
+      Position: [36.8033333, 0.52099967, 6.80745697]
+      Rotation: [0, -0.718999982, 0, 0.695010126]
+      Scale: [0.0199999996, 0.0199999996, 0.0199999996]
+    CameraComponent:
+      Fov: 90
+      Near: 0.00999999978
+      Far: 100
+      AspectRatio: 1.25
+      IsMain: true
+      Offset: [0, 2.82389569, -5.25989628]
+      ObjectOffset: [0, 1.66999996, 0]
+    CameraControlComponent:
+      Distance: 5.96999979
+      Rotation: [-0.492708981, -1.60472476]
+    PlayerControllerComponent:
+      Active: true
+      Strength: 4.55999994
+    PhysicsComponent:
+      CollisionType: Capsule
+      Mass: 1
+      Offset: [0, 100.839996, 0.769999981]
+      Scale: [24.2999992, 155.179993, 1]
+    AnimationRenderComponent:
+      Model:
+        Active: false
+        Model Name: Resources/Models/Ninja/Ninja.fbx

@@ -1,0 +1,54 @@
+Scene: untitled
+GameObjects:
+  - GameObject: defaultCam
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Fov: 90
+      Near: 0.00999999978
+      Far: 100
+      AspectRatio: 1.25
+      IsMain: false
+      Offset: [0, 0, 0]
+  - GameObject: Assasin
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [0.0299999993, 0.0299999993, 0.0299999993]
+    CameraComponent:
+      Fov: 90
+      Near: 0.00999999978
+      Far: 100
+      AspectRatio: 1.25
+      IsMain: true
+      Offset: [-0.019497782, 2.83074141, 9.5909605]
+    CameraControlComponent:
+      Distance: 10
+      Rotation: [0.286997855, 0.0020329305]
+    AnimationRenderComponent:
+      Model:
+        Model Name: Thankful
+      Texture:
+        Texture Name: default
+  - GameObject: Ninja
+    Transform:
+      Position: [3.93000007, 0, -1.47000003]
+      Rotation: [0, 0, 0, 1]
+      Scale: [0.0299999993, 0.0299999993, 0.0299999993]
+    AnimationRenderComponent:
+      Model:
+        Model Name: Ninja
+      Texture:
+        Texture Name: default
+  - GameObject: floor
+    Transform:
+      Position: [0, -0.50999999, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [15, 1, 15]
+    RenderComponent:
+      Model:
+        Model Name: cube
+      Texture:
+        Texture Name: wood

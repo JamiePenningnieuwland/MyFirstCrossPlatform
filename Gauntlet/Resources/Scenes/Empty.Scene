@@ -1,0 +1,14 @@
+Scene: untitled
+GameObjects:
+  - GameObject: defaultCam
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Fov: 90
+      Near: 0.00999999978
+      Far: 100
+      AspectRatio: 1.25
+      IsMain: true
+      Offset: [2.18000007, 0, 0]

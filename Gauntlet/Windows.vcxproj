@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5032B729-BC11-36C5-C529-C19B31889C26}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Windows</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\bin\Debug-windows-x86_64\Windows\</OutDir>
+    <IntDir>..\bin-int\Debug-windows-x86_64\Windows\</IntDir>
+    <TargetName>Windows</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\bin\Release-windows-x86_64\Windows\</OutDir>
+    <IntDir>..\bin-int\Release-windows-x86_64\Windows\</IntDir>
+    <TargetName>Windows</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>BT_THREADSAFE=1;BT_USE_DOUBLE_PRECISION;WINDOWS;GLFW_INCLUDE_NONE;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)Windows;$(ProjectDir)ExternalFiles\glfw-3.3.6\win64\include;$(ProjectDir)ExternalFiles\glad\include;$(ProjectDir)ExternalFiles\glm;$(ProjectDir)ExternalFiles\stb;$(ProjectDir)ExternalFiles\tinyOBJloader;$(ProjectDir)ExternalFiles\bullet\src\bullet2;$(ProjectDir)ExternalFiles\IamGUI;$(ProjectDir)ExternalFiles/yaml/include;$(ProjectDir)ExternalFiles/Assimp/include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4201;4100</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(ProjectDir)ExternalFiles\glfw-3.3.6\win64\lib-vc2022/glfw3_mt.lib;$(ProjectDir)ExternalFiles\bullet\$(Configuration)/BulletSoftBody_vs2010_x64_debug.lib;$(ProjectDir)ExternalFiles\bullet\$(Configuration)/BulletDynamics_vs2010_x64_debug.lib;$(ProjectDir)ExternalFiles\bullet\$(Configuration)/BulletCollision_vs2010_x64_debug.lib;$(ProjectDir)ExternalFiles\bullet\$(Configuration)/LinearMath_vs2010_x64_debug.lib;opengl32.lib;%(AdditionalDependencies);$(ProjectDir)ExternalFiles\yaml/bin/$(Configuration)-windows-x86_64/yaml-cpp/yaml-cpp.lib;$(ProjectDir)ExternalFiles\Assimp/$(Configuration)/assimp-vc143-mtd.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /S /I "$(ProjectDir)Resources" "$(TargetDir)Resources"
+xcopy /Y /D "$(ProjectDir)ExternalFiles/Assimp/$(Configuration)" "$(SolutionDir)bin/Debug-windows-x86_64/Windows"
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>BT_THREADSAFE=1;BT_USE_DOUBLE_PRECISION;WINDOWS;GLFW_INCLUDE_NONE;RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)Windows;$(ProjectDir)ExternalFiles\glfw-3.3.6\win64\include;$(ProjectDir)ExternalFiles\glad\include;$(ProjectDir)ExternalFiles\glm;$(ProjectDir)ExternalFiles\stb;$(ProjectDir)ExternalFiles\tinyOBJloader;$(ProjectDir)ExternalFiles\bullet\src\bullet2;$(ProjectDir)ExternalFiles\IamGUI;$(ProjectDir)ExternalFiles/yaml/include;$(ProjectDir)ExternalFiles/Assimp/include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4201;4100</DisableSpecificWarnings>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>$(ProjectDir)ExternalFiles\glfw-3.3.6\win64\lib-vc2022/glfw3_mt.lib;$(ProjectDir)ExternalFiles\bullet\$(Configuration)/BulletSoftBody_vs2010_x64_release.lib;$(ProjectDir)ExternalFiles\bullet\$(Configuration)/BulletDynamics_vs2010_x64_release.lib;$(ProjectDir)ExternalFiles\bullet\$(Configuration)/BulletCollision_vs2010_x64_release.lib;$(ProjectDir)ExternalFiles\bullet\$(Configuration)/LinearMath_vs2010_x64_release.lib;opengl32.lib;%(AdditionalDependencies);$(ProjectDir)ExternalFiles\yaml/bin/$(Configuration)-windows-x86_64/yaml-cpp/yaml-cpp.lib;$(ProjectDir)ExternalFiles\Assimp/$(Configuration)/assimp-vc143-mt.lib</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>xcopy /y $(ProjectDir)Resources  $(TargetDir)Resources /s /i
+xcopy /Y /D "$(ProjectDir)ExternalFiles/Assimp/$(Configuration)" "$(SolutionDir)bin/Release-windows-x86_64/Windows"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game\Components\PlayerComponents.cpp" />
+    <ClCompile Include="src\Game\Components\PhysicsComponents.cpp" />
+    <ClCompile Include="src\Game\Components\CameraComponents.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_demo.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_draw.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_impl_glfw.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_tables.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_widgets.cpp" />
+    <ClCompile Include="ExternalFiles\stb\stb_image.cpp" />
+    <ClCompile Include="ExternalFiles\tinyOBJloader\tiny_obj_loader.cpp" />
+    <ClCompile Include="src\Game\Components\RenderComponents.cpp" />
+    <ClCompile Include="src\Core\Application.cpp" />
+    <ClCompile Include="src\Engine\Managers\Loader.cpp" />
+    <ClCompile Include="src\Engine\Managers\ResourceManager.cpp" />
+    <ClCompile Include="src\Engine\Managers\DebugDrawManager.cpp" />
+    <ClCompile Include="src\Engine\MathUtils.cpp" />
+    <ClCompile Include="src\Engine\PhysicsDebug\BulletDebug.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Animation.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Model.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Bone.cpp" />
+    <ClCompile Include="src\Game\Game.cpp" />
+    <ClCompile Include="ExternalFiles\glad\src\glad.c" />
+    <ClCompile Include="src\Game\GameObjects\GameObject.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Mesh.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Texture.cpp" />
+    <ClCompile Include="src\Game\Scene\Scene.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Camera.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Shaders\Shader.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\UI\DebugUI.cpp" />
+    <ClCompile Include="src\UI\UI.cpp" />
+    <ClCompile Include="Windows\Graphics.cpp" />
+    <ClCompile Include="Windows\Input.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Game\Components\PlayerComponents.h" />
+    <ClInclude Include="src\Game\Components\PhysicsComponents.h" />
+    <ClInclude Include="src\Game\Components\CameraComponents.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\aabb.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ai_assert.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\anim.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Base64.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\BaseImporter.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Bitmap.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\BlobIOSystem.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ByteSwapper.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\camera.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\cexport.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\cfileio.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\cimport.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ColladaMetaData.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\color4.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\commonMetaData.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Compiler\poppack1.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Compiler\pstdint.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Compiler\pushpack1.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\CreateAnimMesh.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\DefaultIOStream.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\DefaultIOSystem.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\DefaultLogger.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\defs.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Exceptional.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Exporter.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\fast_atof.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\GenericProperty.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\GltfMaterial.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Hash.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Importer.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\importerdesc.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\IOStream.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\IOStreamBuffer.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\IOSystem.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\light.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\LineSplitter.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\LogAux.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Logger.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\LogStream.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\material.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\MathFunctions.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\matrix3x3.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\matrix4x4.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\MemoryIOWrapper.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\mesh.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\metadata.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\NullLogger.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ObjMaterial.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ParsingUtils.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\pbrmaterial.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\port\AndroidJNI\AndroidJNIIOSystem.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\port\AndroidJNI\BundledAssetIOSystem.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\postprocess.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Profiler.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ProgressHandler.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\qnan.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\quaternion.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\RemoveComments.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\scene.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SceneCombiner.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SGSpatialSort.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SkeletonMeshBuilder.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SmallVector.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SmoothingGroups.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SpatialSort.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StandardShapes.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StreamReader.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StreamWriter.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StringComparison.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StringUtils.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Subdivision.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\texture.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\TinyFormatter.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\types.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\vector2.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\vector3.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\version.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Vertex.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\XmlParser.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\XMLTools.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ZipArchiveIOSystem.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imconfig.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui_impl_glfw.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui_impl_opengl3.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui_internal.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imstb_rectpack.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imstb_textedit.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imstb_truetype.h" />
+    <ClInclude Include="ExternalFiles\stb\stb_image.h" />
+    <ClInclude Include="ExternalFiles\tinyOBJloader\tiny_obj_loader.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\anchor.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\binary.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\contrib\anchordict.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\contrib\graphbuilder.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\depthguard.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\dll.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emitfromevents.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emitter.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emitterdef.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emittermanip.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emitterstyle.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\eventhandler.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\exceptions.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\mark.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\convert.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\impl.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\iterator.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\iterator_fwd.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\memory.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\node.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\node_data.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\node_iterator.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\node_ref.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\emit.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\impl.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\iterator.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\node.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\parse.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\ptr.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\type.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\noexcept.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\null.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\ostream_wrapper.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\parser.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\stlemitter.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\traits.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\yaml.h" />
+    <ClInclude Include="src\Game\Components\RenderComponents.h" />
+    <ClInclude Include="src\Core\Application.h" />
+    <ClInclude Include="src\Engine\Managers\DebugDrawManager.h" />
+    <ClInclude Include="src\Engine\Managers\Loader.h" />
+    <ClInclude Include="src\Engine\Managers\ResourceManager.h" />
+    <ClInclude Include="src\Engine\MathUtils.h" />
+    <ClInclude Include="src\Engine\PhysicsDebug\BulletDebug.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Animation.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Model.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Bone.h" />
+    <ClInclude Include="src\Game\Components\BaseComponent.h" />
+    <ClInclude Include="src\Game\Components\Components.h" />
+    <ClInclude Include="src\Game\Game.h" />
+    <ClInclude Include="src\Game\GameObjects\GameObject.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Mesh.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Texture.h" />
+    <ClInclude Include="src\Game\Scene\Scene.h" />
+    <ClInclude Include="src\Input.h" />
+    <ClInclude Include="src\Engine\Rendering\Camera.h" />
+    <ClInclude Include="src\Engine\Rendering\Shaders\Shader.h" />
+    <ClInclude Include="src\gl.h" />
+    <ClInclude Include="src\Engine\Rendering\Graphics.h" />
+    <ClInclude Include="src\UI\DebugUI.h" />
+    <ClInclude Include="src\UI\UI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+    <None Include="ExternalFiles\Assimp\include\assimp\color4.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\material.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\matrix3x3.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\matrix4x4.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\quaternion.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\SmoothingGroups.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\vector2.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\vector3.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

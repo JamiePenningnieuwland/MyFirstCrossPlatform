@@ -1,0 +1,63 @@
+Scene: Jamie
+Models:
+  - ModelName: Resources/Textures/Texture.jpg
+    TEST:
+      Generated: true
+  - ModelName: Resources/Models/Ninja/Ninja.fbx
+    TEST:
+      Generated: false
+GameObjects:
+  - GameObject: defaultCam
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Fov: 90
+      Near: 0.00999999978
+      Far: 100
+      AspectRatio: 1.25
+      IsMain: false
+      Offset: [2.18000007, 0, 0]
+      ObjectOffset: [0, 0, 0]
+  - GameObject: floor
+    Transform:
+      Position: [0, -1.11000001, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [10, 1, 10]
+    PhysicsComponent:
+      CollisionType: Box
+      Mass: 0
+      Offset: [0, 0, 0]
+      Scale: [1, 1, 1]
+    RenderComponent:
+      Model:
+        Model Name: Resources/Textures/Texture.jpg
+  - GameObject: Character
+    Transform:
+      Position: [1.03738713, -0.589000106, -0.148531541]
+      Rotation: [0, 0.999711633, 0, 0.0240123589]
+      Scale: [0.0199999996, 0.0199999996, 0.0199999996]
+    CameraComponent:
+      Fov: 90
+      Near: 0.00999999978
+      Far: 100
+      AspectRatio: 1.25
+      IsMain: true
+      Offset: [0, 3.18068266, -5.05214357]
+      ObjectOffset: [0, 1.66999996, 0]
+    CameraControlComponent:
+      Distance: 5.96999979
+      Rotation: [-0.561879516, 3.09356332]
+    PlayerControllerComponent:
+      Active: true
+      Strength: 4.55999994
+    PhysicsComponent:
+      CollisionType: Capsule
+      Mass: 1
+      Offset: [0, 100.839996, 0.769999981]
+      Scale: [24.2999992, 155.179993, 1]
+    AnimationRenderComponent:
+      Model:
+        Active: false
+        Model Name: Resources/Models/Ninja/Ninja.fbx

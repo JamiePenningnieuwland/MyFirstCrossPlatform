@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5e167a97-cf8b-4e7f-b864-63538d660643}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>Raspberry</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Raspberry</TargetLinuxPlatform>
+    <LinuxProjectType>{8748239F-558C-44D1-944B-07B09C35B330}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <OutDir>$(ProjectDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)obj\$(Platform)\$(Configuration)\</IntDir>
+    <MultiProcNumber>4</MultiProcNumber>
+    <IncludePath>/home/pi/glm;/usr/include/bullet</IncludePath>
+    <SourcesToCopyRemotelyOverride>@(SourcesToCopyRemotely);@(DataFilesToCopyRemotely)</SourcesToCopyRemotelyOverride>
+    <AdditionalSourcesToCopyMapping>
+    </AdditionalSourcesToCopyMapping>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IncludePath>/home/pi/glm;/usr/include/bullet</IncludePath>
+    <SourcesToCopyRemotelyOverride>@(SourcesToCopyRemotely);@(DataFilesToCopyRemotely)</SourcesToCopyRemotelyOverride>
+    <AdditionalSourcesToCopyMapping>
+    </AdditionalSourcesToCopyMapping>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Link>
+      <LibraryDependencies>GLESv2;EGL;pthread;X11;Xrandr;BulletCollision;BulletSoftBody;BulletDynamics;LinearMath;assimp;dl</LibraryDependencies>
+    </Link>
+    <RemotePostBuildEvent>
+      <Command> gpio export 17 out; $(RemoteCopySourceMethod) -ar $(RemoteProjectDir)Resources $(RemoteOutDir)</Command>
+      <Message>export pin 17 using the gpio utility so that we can execute the blink program without sudo</Message>
+    </RemotePostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Link>
+      <LibraryDependencies>GLESv2;EGL;pthread;X11;Xrandr;BulletCollision;BulletSoftBody;BulletDynamics;LinearMath;assimp;dl</LibraryDependencies>
+      <UnresolvedSymbolReferences>true</UnresolvedSymbolReferences>
+      <AdditionalOptions>-ldl %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <RemotePostBuildEvent>
+      <Command> gpio export 17 out; $(RemoteCopySourceMethod) -ar $(RemoteProjectDir)Resources $(RemoteOutDir)</Command>
+      <Message>export pin 17 using the gpio utility so that we can execute the blink program without sudo</Message>
+    </RemotePostBuildEvent>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)Raspberry;$(ProjectDir)ExternalFiles/glm;$(ProjectDir)ExternalFiles\stb;$(ProjectDir)ExternalFiles\tinyOBJloader;$(ProjectDir)ExternalFiles/IamGUI;$(ProjectDir)ExternalFiles/yaml/include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>GLM_ENABLE_EXPERIMENTAL;BT_THREADSAFE=1;BULLET;GLES3;RASPBERRY;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <PreBuildEvent>
+      <AdditionalSourcesToCopyMapping>%(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
+    </PreBuildEvent>
+    <RemotePreBuildEvent>
+      <Command>
+      </Command>
+    </RemotePreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ExternalFiles\IamGUI\imgui.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_demo.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_draw.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_impl_x11.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_tables.cpp" />
+    <ClCompile Include="ExternalFiles\IamGUI\imgui_widgets.cpp" />
+    <ClCompile Include="ExternalFiles\stb\stb_image.cpp" />
+    <ClCompile Include="ExternalFiles\tinyOBJloader\tiny_obj_loader.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\binary.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\contrib\graphbuilder.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\contrib\graphbuilderadapter.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\convert.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\depthguard.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\directives.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\emit.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\emitfromevents.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\emitter.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\emitterstate.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\emitterutils.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\exceptions.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\exp.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\memory.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\node.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\nodebuilder.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\nodeevents.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\node_data.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\null.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\ostream_wrapper.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\parse.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\parser.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\regex_yaml.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\scanner.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\scanscalar.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\scantag.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\scantoken.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\simplekey.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\singledocparser.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\stream.cpp" />
+    <ClCompile Include="ExternalFiles\yaml\src\tag.cpp" />
+    <ClCompile Include="Raspberry\Input.cpp" />
+    <ClCompile Include="src\Core\Application.cpp" />
+    <ClCompile Include="src\Engine\Managers\DebugDrawManager.cpp" />
+    <ClCompile Include="src\Engine\Managers\Loader.cpp" />
+    <ClCompile Include="src\Engine\Managers\ResourceManager.cpp" />
+    <ClCompile Include="src\Engine\MathUtils.cpp" />
+    <ClCompile Include="src\Engine\PhysicsDebug\BulletDebug.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Camera.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Animation.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Bone.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Mesh.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Model.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Models\Texture.cpp" />
+    <ClCompile Include="src\Engine\Rendering\Shaders\Shader.cpp" />
+    <ClCompile Include="src\Game\Components\CameraComponents.cpp" />
+    <ClCompile Include="src\Game\Components\PhysicsComponents.cpp" />
+    <ClCompile Include="src\Game\Components\PlayerComponents.cpp" />
+    <ClCompile Include="src\Game\Components\RenderComponents.cpp" />
+    <ClCompile Include="src\Game\Game.cpp" />
+    <ClCompile Include="src\Game\GameObjects\GameObject.cpp" />
+    <ClCompile Include="src\Game\Scene\Scene.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="Raspberry\Graphics.cpp" />
+    <ClCompile Include="src\UI\DebugUI.cpp" />
+    <ClCompile Include="src\UI\UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\aabb.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ai_assert.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\anim.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Base64.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\BaseImporter.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Bitmap.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\BlobIOSystem.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ByteSwapper.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\camera.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\cexport.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\cfileio.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\cimport.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ColladaMetaData.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\color4.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\commonMetaData.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Compiler\poppack1.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Compiler\pstdint.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Compiler\pushpack1.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\config.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\CreateAnimMesh.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\DefaultIOStream.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\DefaultIOSystem.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\DefaultLogger.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\defs.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Exceptional.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Exporter.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\fast_atof.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\GenericProperty.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\GltfMaterial.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Hash.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Importer.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\importerdesc.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\IOStream.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\IOStreamBuffer.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\IOSystem.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\light.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\LineSplitter.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\LogAux.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Logger.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\LogStream.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\material.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\MathFunctions.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\matrix3x3.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\matrix4x4.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\MemoryIOWrapper.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\mesh.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\metadata.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\NullLogger.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ObjMaterial.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ParsingUtils.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\pbrmaterial.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\port\AndroidJNI\AndroidJNIIOSystem.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\port\AndroidJNI\BundledAssetIOSystem.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\postprocess.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Profiler.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ProgressHandler.hpp" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\qnan.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\quaternion.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\RemoveComments.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\scene.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SceneCombiner.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SGSpatialSort.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SkeletonMeshBuilder.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SmallVector.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SmoothingGroups.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\SpatialSort.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StandardShapes.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StreamReader.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StreamWriter.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StringComparison.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\StringUtils.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Subdivision.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\texture.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\TinyFormatter.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\types.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\vector2.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\vector3.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\version.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\Vertex.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\XmlParser.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\XMLTools.h" />
+    <ClInclude Include="ExternalFiles\Assimp\include\assimp\ZipArchiveIOSystem.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imconfig.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui_impl_opengl3.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui_impl_x11.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imgui_internal.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imstb_rectpack.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imstb_textedit.h" />
+    <ClInclude Include="ExternalFiles\IamGUI\imstb_truetype.h" />
+    <ClInclude Include="ExternalFiles\stb\stb_image.h" />
+    <ClInclude Include="ExternalFiles\tinyOBJloader\tiny_obj_loader.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\anchor.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\binary.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\contrib\anchordict.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\contrib\graphbuilder.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\depthguard.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\dll.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emitfromevents.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emitter.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emitterdef.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emittermanip.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\emitterstyle.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\eventhandler.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\exceptions.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\mark.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\convert.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\impl.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\iterator.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\iterator_fwd.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\memory.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\node.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\node_data.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\node_iterator.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\detail\node_ref.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\emit.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\impl.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\iterator.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\node.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\parse.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\ptr.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\node\type.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\noexcept.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\null.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\ostream_wrapper.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\parser.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\stlemitter.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\traits.h" />
+    <ClInclude Include="ExternalFiles\yaml\include\yaml-cpp\yaml.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\collectionstack.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\contrib\graphbuilderadapter.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\directives.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\emitterstate.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\emitterutils.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\exp.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\indentation.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\nodebuilder.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\nodeevents.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\ptr_vector.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\regeximpl.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\regex_yaml.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\scanner.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\scanscalar.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\scantag.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\setting.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\singledocparser.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\stream.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\streamcharsource.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\stringsource.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\tag.h" />
+    <ClInclude Include="ExternalFiles\yaml\src\token.h" />
+    <ClInclude Include="Raspberry\InputData.h" />
+    <ClInclude Include="src\Core\Application.h" />
+    <ClInclude Include="src\Engine\Managers\DebugDrawManager.h" />
+    <ClInclude Include="src\Engine\Managers\Loader.h" />
+    <ClInclude Include="src\Engine\Managers\ResourceManager.h" />
+    <ClInclude Include="src\Engine\MathUtils.h" />
+    <ClInclude Include="src\Engine\PhysicsDebug\BulletDebug.h" />
+    <ClInclude Include="src\Engine\Rendering\Camera.h" />
+    <ClInclude Include="src\Engine\Rendering\Graphics.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Animation.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Bone.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Mesh.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Model.h" />
+    <ClInclude Include="src\Engine\Rendering\Models\Texture.h" />
+    <ClInclude Include="src\Engine\Rendering\Shaders\Shader.h" />
+    <ClInclude Include="src\Game\Components\BaseComponent.h" />
+    <ClInclude Include="src\Game\Components\CameraComponents.h" />
+    <ClInclude Include="src\Game\Components\Components.h" />
+    <ClInclude Include="src\Game\Components\PhysicsComponents.h" />
+    <ClInclude Include="src\Game\Components\PlayerComponents.h" />
+    <ClInclude Include="src\Game\Components\RenderComponents.h" />
+    <ClInclude Include="src\Game\Game.h" />
+    <ClInclude Include="src\Game\GameObjects\GameObject.h" />
+    <ClInclude Include="src\Game\Scene\Scene.h" />
+    <ClInclude Include="src\Input.h" />
+    <ClInclude Include="src\gl.h" />
+    <ClInclude Include="src\UI\DebugUI.h" />
+    <ClInclude Include="src\UI\UI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExternalFiles\Assimp\include\assimp\color4.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\material.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\matrix3x3.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\matrix4x4.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\quaternion.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\SmoothingGroups.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\vector2.inl" />
+    <None Include="ExternalFiles\Assimp\include\assimp\vector3.inl" />
+    <None Include="Resources\Models\FBXtest.fbx" />
+    <None Include="Resources\Models\Hunter\Hunter.bin" />
+    <None Include="Resources\Models\Hunter\Hunter.gltf" />
+    <None Include="Resources\Models\Ninja\Ninja.bin" />
+    <None Include="Resources\Models\Ninja\Ninja.fbx" />
+    <None Include="Resources\Models\Ninja\Ninja.gltf" />
+    <None Include="Resources\Models\Thankful\Thankful.bin" />
+    <None Include="Resources\Models\Thankful\Thankful.fbx" />
+    <None Include="Resources\Models\Thankful\Thankful.gltf" />
+    <None Include="Resources\PlayerData\Brian.Scene" />
+    <None Include="Resources\PlayerData\Jamie.Scene" />
+    <None Include="Resources\Scenes\CharacterControl.Scene" />
+    <None Include="Resources\Scenes\Empty.Scene" />
+    <None Include="Resources\Shaders\AnimatedShader.frag" />
+    <None Include="Resources\Shaders\AnimatedShader.vert" />
+    <None Include="Resources\Shaders\cubeShader.frag" />
+    <None Include="Resources\Shaders\cubeShader.vert" />
+    <None Include="Resources\Shaders\debugShader.frag" />
+    <None Include="Resources\Shaders\debugShader.vert" />
+    <None Include="Resources\Shaders\Shader.frag" />
+    <None Include="Resources\Shaders\Shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Models\Hunter\SpacePirate_diffuse.png" />
+    <Image Include="Resources\Models\Hunter\SpacePirate_normal.png" />
+    <Image Include="Resources\Models\Ninja\Kachujin_diffuse.png" />
+    <Image Include="Resources\Models\Ninja\Kachujin_normal.png" />
+    <Image Include="Resources\Models\Thankful\Arissa_DIFF_diffuse.png" />
+    <Image Include="Resources\Models\Thankful\Arissa_NM_normal.png" />
+    <Image Include="Resources\Textures\back.jpg" />
+    <Image Include="Resources\Textures\bottom.jpg" />
+    <Image Include="Resources\Textures\cat.jpeg" />
+    <Image Include="Resources\Textures\ColorMap.png" />
+    <Image Include="Resources\Textures\default.jpg">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="Resources\Textures\front.jpg" />
+    <Image Include="Resources\Textures\grass.jpg" />
+    <Image Include="Resources\Textures\left.jpg" />
+    <Image Include="Resources\Textures\right.jpg" />
+    <Image Include="Resources\Textures\Texture.jpg" />
+    <Image Include="Resources\Textures\top.jpg" />
+    <Image Include="Resources\Textures\Weird.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Resources\Models\cat.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </Object>
+    <Object Include="Resources\Models\cube.obj">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">true</ExcludedFromBuild>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Fonts\openSans\OpenSans-Bold.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-BoldItalic.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-ExtraBold.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-ExtraBoldItalic.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-Italic.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-Light.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-LightItalic.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-Medium.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-MediumItalic.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-Regular.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-SemiBold.ttf" />
+    <Font Include="Resources\Fonts\openSans\OpenSans-SemiBoldItalic.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Fonts\openSans\LICENSE.txt" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PreprocessorDefinitions>DEBUG=1;GLM_ENABLE_EXPERIMENTAL;BT_THREADSAFE=1;BULLET;GLES3;RASPBERRY</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;$(ProjectDir)Raspberry;$(ProjectDir)ExternalFiles/glm;$(ProjectDir)ExternalFiles\stb;$(ProjectDir)ExternalFiles\tinyOBJloader;$(ProjectDir)ExternalFiles/IamGUI;$(ProjectDir)ExternalFiles/yaml/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <PreBuildEvent>
+      <AdditionalSourcesToCopyMapping>%(AdditionalSourcesToCopyMapping)</AdditionalSourcesToCopyMapping>
+    </PreBuildEvent>
+    <RemotePreBuildEvent>
+      <Command>
+      </Command>
+    </RemotePreBuildEvent>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <Link />
+    <Link>
+      <UnresolvedSymbolReferences>true</UnresolvedSymbolReferences>
+      <AdditionalOptions>-ldl %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

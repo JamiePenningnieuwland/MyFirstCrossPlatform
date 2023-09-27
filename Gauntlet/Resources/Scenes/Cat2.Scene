@@ -1,0 +1,46 @@
+Scene: untitled
+GameObjects:
+  - GameObject: Playercat
+    Transform:
+      Position: [-6.07499981, 2.97000027, 6.08287144]
+      Rotation: [9.03776163e-06, -0.195567518, 7.88960824e-06, 0.980690241]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Fov: 90
+      Near: 0.00999999978
+      Far: 100
+      AspectRatio: 1.25
+      IsMain: true
+      Offset: [6.82051849, 4.7192359, 5.58653164]
+    CameraControlComponent:
+      Distance: 10
+      Rotation: [0.49147135, -0.884530663]
+    PlayerControllerComponent:
+      Strength: 10
+    PhysicsComponent:
+      Mass: 1
+      Offset: [0, 0.769999981, 0.170000002]
+      Scale: [0.709999979, 1.53999996, 2.20000005]
+      DebugModel:
+        Model Name: cube
+    RenderComponent:
+      Model:
+        Model Name: cat
+      Texture:
+        Texture Name: cat
+  - GameObject: Map
+    Transform:
+      Position: [0, 0, 0]
+      Rotation: [0, 0, 0, 1]
+      Scale: [1, 1, 1]
+    PhysicsComponent:
+      Mass: 0
+      Offset: [3.80999994, -2.52999997, 5.13000011]
+      Scale: [55.7299995, 1, 49.0999985]
+      DebugModel:
+        Model Name: cube
+    RenderComponent:
+      Model:
+        Model Name: map
+      Texture:
+        Texture Name: colorMap
